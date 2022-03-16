@@ -7,7 +7,7 @@ import java.util.function.*;
  * Consumer, Function, Supplier, BinaryOperator and UnaryOperator.
  */
 
-public class Exercise1 {
+public class InterfacesFunctional1 {
 
     public static void main(String[] args) {
 
@@ -31,7 +31,9 @@ public class Exercise1 {
         BinaryOperator<Integer> add = (a,b) -> a + b;
         System.out.println("40 + 15: " + add.apply(40, 15));
 
+        //UnaryOperator
         UnaryOperator<String> str = (msg) -> msg.toLowerCase();
         System.out.println(str.apply("CONVERTING THIS SENTENCE TO LOWER CASE"));
+
     }
 }

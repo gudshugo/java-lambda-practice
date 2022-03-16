@@ -22,5 +22,6 @@ Most common functional interfaces:
 - UnaryOperator - accepts a single argument with a return value
 - BinaryOperator - accepts two arguments and returns one
 
-
+With lambda, it's easier to represent a single abstract method from an interface with less
+code than we are used to.
 
