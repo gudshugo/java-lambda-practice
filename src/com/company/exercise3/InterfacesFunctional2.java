@@ -4,7 +4,12 @@ import java.util.Arrays;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
-public class InterfacesFunction2 {
+/**
+ * Exercise 3 is related to others implementations of Functional Interfaces using BiFunction and Consumer.
+ */
+
+
+public class InterfacesFunctional2 {
 
     public static void main(String[] args){
 

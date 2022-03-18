@@ -1,5 +1,9 @@
 package com.company.exercise2;
 
+/**
+ * Exercise 2 is a demonstration of Runnable implementation with and without lambda expressions.
+ */
+
 public class RunnableLambda {
 
     public static void main(String[] args){
