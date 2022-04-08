@@ -25,3 +25,27 @@ Most common functional interfaces:
 With lambda, it's easier to represent a single abstract method from an interface with less
 code than we are used to.
 
+### **Collections API** (Often used with lambdas)
+
+The collections API was introduced with Java 7.
+
+A collection is a group of elements and it can store, retrieve, manipulate, and
+communicate aggregate data.
+
+Provides the following interfaces:
+
+- Set - a collection that doesn't contain duplicates
+- List - an ordered collection
+- Map - an object that maps keys to value
+
+The collection interface contains methods that perform basic operations, such as:
+
+- int size() - gets the size of the collection
+- boolean isEmpty() - returns true if the collection is empty or false if it's not.
+- boolean contains(Object o) - checks if an element is inside the collection returning true if
+it is or false if not.
+- boolean add(Object o) - returns true if it was able to add the element or false if was an error.
+- boolean remove(Object o) - tries to remove an element returning true if was successfully removed 
+and false if not.
+- Iterator<E> iterator() - it returns an iterator over the elemenets in this collection.
+
