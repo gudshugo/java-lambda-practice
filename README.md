@@ -49,3 +49,23 @@ it is or false if not.
 and false if not.
 - Iterator<E> iterator() - it returns an iterator over the elemenets in this collection.
 
+### **Stream API** ###
+
+It's a package that contains interfaces for using streams.
+
+- A stream represents a sequence of elements.
+- This package was added in order to traverse collections.
+- Most stream operations take a lambda expression.
+
+Stream operations are categorized as:
+
+- Intermediate operations returns the stream itself.
+- Terminal operations are either void or return a type.
+- Common operations include:
+  - map (intermediate): it allows us to map one value to another.
+  - filter (intermediate): it allows us to filter results using a Predicate.
+  - forEach (terminal): iterate over a Collection or Stream.
+  - sorted (intermediate): returns a sorted view of the stream.
+  - collect (terminal): it's used to transform a stream into a different kind of result(List, Set, Map, etc.).
+
+Elements in a stream can't be changed, but you can save them to a new collection, if you want to.
